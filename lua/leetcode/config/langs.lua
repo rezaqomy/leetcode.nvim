@@ -171,4 +171,12 @@ return {
         ft = "sh",
         comment = "#",
     },
+    {
+    lang = "MySQL",
+    slug = "mysql",
+    icon = "",
+    color = "#00758F",
+    ft = "sql",
+    comment = "--"
+  }
 }

@@ -14,7 +14,7 @@ local Problems = {}
 ---
 ---@return lc.cache.Question[], lc.err
 function Problems.all(cb, noti)
-    local endpoint = urls.problems:format("algorithms")
+    local endpoint = urls.problems:format("all") 
 
     local spinner
     if noti then
